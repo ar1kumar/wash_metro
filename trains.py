@@ -10,17 +10,17 @@ parser.add_argument("-s", "--stationCode", help = "Station Code")
 
 def getUpcomingTrainInfo(trainInfo):
     # Parse results
-    print('Passenger trains heading to Huntington on YL line: \n')
+    print('\nPassenger trains heading to Huntington on YL line: \n')
 
     for item in trainInfo['Trains']:
-        print('############')
+        print('\n############\n')
         # Get the list and filter out non passenger trains
         # Check for train on Yellow - YL lines only
         if(item['DestinationName'] != 'No Passenger' and item['Line'] == 'YL'):
-            print('Arrival Time: in ' +item['Min']+ ' mins'
-            '\n From: '+item['LocationName'],
-            '\n To: ' +item['DestinationName'],
-            '\n Line: '+item['Line'])
+            print('Headed to : ' + item['LocationName'],
+            '\nETA : ' +item['Min']+ ' mins',
+            '\nDestination : ' +item['DestinationName'],
+            '\nLine : '+item['Line'])
 
     return
 
