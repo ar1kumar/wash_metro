@@ -2,8 +2,12 @@
 
 Pulls all the yellow line trains headed to Huntington Station which take passengers.
 
-Instructions:
+Requirement: Python 3.2>
 
-python trains.py -a {api_key} -s {stationCode}
+How to run:
 
-eg: python trains.py -a {api_key} -s C15
+python3 trains.py -a {api_key} -s {stationCode}
+
+eg: python3 trains.py -a {api_key} -s C15
+
+Returns all YL line passenger trains currently heading to Huntington Station
