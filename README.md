@@ -1,6 +1,6 @@
 # wash_metro
 
-Pulls all the yellow line trains headed to Huntington Station which take passengers.
+Pulls all the yellow line(YL) trains headed to {Huntington} Station which take passengers.
 
 Requirement: Python 3.2>
 
