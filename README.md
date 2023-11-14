@@ -2,7 +2,7 @@
 
 ### ***Pulls all the yellow line(YL) trains headed to {Huntington} Station which take passengers.***
 
-### Requirement: Python 3.2>
+### Requirement: Python 3.6>
 
 ### How to run:
 
