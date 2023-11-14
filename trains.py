@@ -30,7 +30,7 @@ def metroApiGetRequest(apiKey, params, apiUrl):
 
 def parseTrainsInfo(trainsList, stationInfo):
     # Parse results
-    print('\nPassenger trains heading to ' +stationInfo['Name'], 'station on YL line: \n')
+    print('\n'+str(len(trainsList['Trains'])),'Passenger trains heading to ' +stationInfo['Name'], 'station on YL line: \n')
 
     for item in trainsList['Trains']:
         print('\n############\n')
